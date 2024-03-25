@@ -11,7 +11,7 @@ export class JoueurService {
 
   constructor() {}
   getJoueurs(){
-    return this.http.get('http://127.0.0.1:5000/liste_joueurs');
+    return this.http.get('/api/liste_joueurs');
     }
 
 
