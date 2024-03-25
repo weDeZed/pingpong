@@ -15,5 +15,10 @@ export class JoueurService {
     }
 
 
+  addJoueur(joueurJSON: JSON){
+    return this.http.post<JSON>('http://127.0.0.1:5000/ajouter_joueur',joueurJSON);
+  }
+
+
 
 }

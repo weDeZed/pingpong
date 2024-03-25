@@ -15,8 +15,8 @@
     <tr *ngFor="let joueur of joueurs">
       <td>{{ joueur.nom }}</td>
       <td>{{ joueur.prenom }}</td>
-      <td>{{ joueur.categorie[0]?.age }}</td>
-      <td>{{ joueur.categorie[0]?.niveau }}</td>
+      <td>{{ joueur.categorie.age }}</td>
+      <td>{{ joueur.categorie.niveau }}</td>
       <td>{{ joueur.sexe }}</td>
       <td>{{ joueur.point }}</td>
     </tr>
